@@ -40,7 +40,7 @@ export default {
 }
 </script>
 <style>
-button:hover {
+/* button:hover {
     transform: scale(1.1);
 }
 ul{
@@ -67,8 +67,6 @@ button{
 a{
   text-decoration: none;
   color: #707070
-}
-a:hover{
-  color: blue;
-}
+} */
+
 </style>

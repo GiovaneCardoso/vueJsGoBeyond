@@ -55,7 +55,7 @@ export default {
 }
 </script>
 <style>
-h2{
+/* h2{
   color: #42b883;
 }
 button:hover {
@@ -76,9 +76,7 @@ ul{
 a{
   text-decoration: none;
   color: #707070
-}
-a:hover{
-  color: blue;
-}
-</style>
+} */
+
+</style>  
 

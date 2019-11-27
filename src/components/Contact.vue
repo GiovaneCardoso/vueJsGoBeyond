@@ -13,7 +13,7 @@
   </div>
 </template>
 <style>
-button:hover {
+/* button:hover {
     transform: scale(1.1);
 }
 ul{
@@ -26,7 +26,7 @@ button{
     border: 1px solid #42b883;
     box-shadow: 2px 2px 7px grey;
     cursor: pointer;
-}
+} */
 </style>
 <script>
 export default {
