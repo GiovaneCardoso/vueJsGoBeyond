@@ -54,31 +54,34 @@ export default {
 
 }
 </script>
-<style>
-h2{
+<style lang="scss">
+a{
+  text-decoration: none;
+  color: #707070;
+  &:hover{
+    color: red;
+  }
+}
+
+ h2{
   color: #42b883;
-}
-button:hover {
-    transform: scale(1.1);
-}
+ }
+
 ul{
   padding: 0;
 }
-#home ul{
+#home{
+   ul{
   display: flex;
   flex-direction: column;
   justify-content: center;
+    li{
+      list-style: none;
+    }
+  }
 }
-#home ul li{
 
-  list-style: none;
-}
-a{
-  text-decoration: none;
-  color: #707070
-}
-a:hover{
-  color: blue;
-}
+
+
 </style>
 

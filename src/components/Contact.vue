@@ -12,13 +12,12 @@
     <router-link :to="{name: 'home'}"><button>Voltar a home</button></router-link>
   </div>
 </template>
-<style>
-button:hover {
-    transform: scale(1.1);
-}
+<style lang='scss'>
+
 ul{
   padding: 0;
 }
+
 button{
     padding: 10px 33px;
     color: #35495e;
@@ -26,7 +25,10 @@ button{
     border: 1px solid #42b883;
     box-shadow: 2px 2px 7px grey;
     cursor: pointer;
-}
+    &:hover{
+      transform: scale(1.1);
+    }
+} 
 </style>
 <script>
 export default {

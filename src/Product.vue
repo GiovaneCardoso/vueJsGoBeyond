@@ -13,22 +13,26 @@
   </div>
 </template>
 
-<style>
-button:hover {
-    transform: scale(1.1);
-}
-ul{
-  padding: 0;
-}
+<style lang='scss'> 
+
 button{
-      padding: 10px 33px;
+
+    padding: 10px 33px;
     color: #35495e;
     background-color: #42b883;
     border: 1px solid #42b883;
     box-shadow: 2px 2px 7px grey;
-        cursor: pointer;
+    cursor: pointer;
 
+  &:hover{
+    transform: scale(1.1)
+  }
 }
+
+ul{
+  padding: 0;
+}
+
 </style>
 
 <script>

@@ -39,10 +39,8 @@ export default {
 
 }
 </script>
-<style>
-button:hover {
-    transform: scale(1.1);
-}
+<style lang='scss'>
+
 ul{
   padding: 0;
 }
@@ -54,21 +52,28 @@ button{
     box-shadow: 2px 2px 7px grey;
         cursor: pointer;
 
+        &:hover {
+    transform: scale(1.1);
 }
-#category ul{
+
+}
+#category {
+ul{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  li{
+    list-style: none;
+  }
 }
-#category ul li{
 
-  list-style: none;
 }
 a{
   text-decoration: none;
-  color: #707070
+  color: #707070;
+  &:hover{
+  color: red;
 }
-a:hover{
-  color: blue;
 }
+
 </style>
