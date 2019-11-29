@@ -38,7 +38,7 @@ export default {
   }
 };
 </script>
-<style lang='scss'>
+<style lang='scss' scoped>
 $primary-color: #42b883;
 
 ul {
@@ -70,7 +70,7 @@ a {
   text-decoration: none;
   color: #707070;
   &:hover {
-    color: $primary-color;
+    color: red;
   }
 }
 </style>

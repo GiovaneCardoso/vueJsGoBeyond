@@ -2,7 +2,7 @@
   <div id="home">
     <HelloWorld msg="Olá, Teste" valor="32"></HelloWorld>
     <img src="./assets/logo.png" />
-    <h1>Home</h1>
+    <h1>Home</h1> 
     <br />
     <h2>Departamentos:</h2>
     <br />
@@ -10,7 +10,6 @@
       <li>
         <router-link :to="{name: 'category', params: {name: 'Camisetas'}}">Camisetas</router-link>
       </li>
-      <br />
       <li>
         <router-link :to="{name: 'category', params: {name: 'Calcas'}}">Calças</router-link>
       </li>
@@ -66,7 +65,7 @@ export default {
   }
 };
 </script>
-<style lang="scss">
+<style lang="scss" scoped>
 $base-color: #42b883;
 
 ::-webkit-scrollbar {
@@ -83,7 +82,7 @@ $base-color: #42b883;
   background: #c7c7c7;
 }
 
-a {
+a { 
   text-decoration: none;
   color: #707070;
   &:hover {
@@ -105,6 +104,7 @@ ul {
     justify-content: center;
     li {
       list-style: none;
+      
     }
   }
 }

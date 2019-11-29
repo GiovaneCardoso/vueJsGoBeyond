@@ -20,7 +20,7 @@
     </router-link>
   </div>
 </template>
-<style lang='scss'>
+<style lang='scss' scoped>
 ul {
   padding: 0;
 }
