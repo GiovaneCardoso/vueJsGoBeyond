@@ -5,11 +5,12 @@
     </router-link>
     <h1>Contato</h1>
     <form action="#" v-on:submit="preventdefaultfunc">
-      <!-- V-on é um alias para onclick do html base  -->
+      <!-- V-on é um alias para on do html base  -->
       <label>Digite seu email</label>
       <br />
       <input type="email" />
       <br />
+      
       <br />
       <input type="submit" value="xD" />
       <br />
@@ -24,6 +25,7 @@
 ul {
   padding: 0;
 }
+
 
 button {
   padding: 10px 33px;

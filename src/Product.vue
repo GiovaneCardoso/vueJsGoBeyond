@@ -16,8 +16,7 @@
 <style lang='scss' scoped> 
 
 button{
-
-    padding: 10px 33px;
+    padding: 10px 33px; 
     color: #35495e;
     background-color: #42b883;
     border: 1px solid #42b883;

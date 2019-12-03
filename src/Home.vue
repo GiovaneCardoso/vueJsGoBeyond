@@ -10,7 +10,7 @@
       <li>
         <router-link :to="{name: 'category', params: {name: 'Camisetas'}}">Camisetas</router-link>
       </li>
-      <li>
+     <li>
         <router-link :to="{name: 'category', params: {name: 'Calcas'}}">Calças</router-link>
       </li>
       <li>
