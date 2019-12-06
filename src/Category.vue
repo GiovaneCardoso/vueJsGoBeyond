@@ -6,7 +6,6 @@
 
     <h1>Categoria - {{$route.params.name}}</h1>
     <h2>{{$route.params.name}} em destaque:</h2>
-
     <ul>
       <li>
         <router-link :to="{name: 'product', params: {name: 'Produto1'}}">Item 1</router-link>
@@ -47,7 +46,7 @@ ul {
 button {
   padding: 10px 33px;
   color: #35495e;
-  background-color: #42b883;
+  background-color: $primary-color;
   border: 1px solid #42b883;
   box-shadow: 2px 2px 7px grey;
   cursor: pointer;
